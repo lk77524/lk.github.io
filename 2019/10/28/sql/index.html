@@ -50,31 +50,45 @@
   };
 </script>
 
-  <meta name="description" content="java 技术分享、IT 开发技术分享">
-<meta name="keywords" content="Java、学习、培训、教程、基础">
-<meta property="og:type" content="website">
-<meta property="og:title" content="祺">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+  <meta name="description" content="前言技术一直在发展，随着这个月阿里的 OceanBase 砍获数据库世界第一，远超 Oracle 很多人开始关注数据库的发展方向  但是祺老弟求求大佬们别再提什么新概念新名称了！学不来！！  但是逼总是要装的，今天我们就一起看看这些新出的名词都是些什么 SQLSQL 就不用祺老弟多讲了，是传统的关系型数据库，70年代以来，它一直是主要的数据库解决方案   优点：  使用统一标准的语言 坚持 AC">
+<meta name="keywords" content="SQL,NoSQL,NewSQL,数据库">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SQL、NoSQL、NewSQL 看这篇文章就够了">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;28&#x2F;sql&#x2F;index.html">
 <meta property="og:site_name" content="祺">
-<meta property="og:description" content="java 技术分享、IT 开发技术分享">
+<meta property="og:description" content="前言技术一直在发展，随着这个月阿里的 OceanBase 砍获数据库世界第一，远超 Oracle 很多人开始关注数据库的发展方向  但是祺老弟求求大佬们别再提什么新概念新名称了！学不来！！  但是逼总是要装的，今天我们就一起看看这些新出的名词都是些什么 SQLSQL 就不用祺老弟多讲了，是传统的关系型数据库，70年代以来，它一直是主要的数据库解决方案   优点：  使用统一标准的语言 坚持 AC">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http:&#x2F;&#x2F;pztl2fha9.bkt.clouddn.com&#x2F;art-big-data-blur-373543.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;pztl2fha9.bkt.clouddn.com&#x2F;6af89bc8gw1f8rgblk2npj208m07r0sq.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;pztl2fha9.bkt.clouddn.com&#x2F;9150e4e5gw1f9f2zzbwtuj205i03zt8s.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;pztl2fha9.bkt.clouddn.com&#x2F;ac6eddc451da81cb037c289d5366d016082431c3.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;pztl2fha9.bkt.clouddn.com&#x2F;u=1545840296,2560930675&amp;fm=26&amp;gp=0.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;pztl2fha9.bkt.clouddn.com&#x2F;9150e4e5ly1fcsmsy8gx4j206o06o0t4.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;pztl2fha9.bkt.clouddn.com&#x2F;u=2437443776,3423398538&amp;fm=26&amp;gp=0.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;pztl2fha9.bkt.clouddn.com&#x2F;timg.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;pztl2fha9.bkt.clouddn.com&#x2F;006ARE9vgy1fz1ugkmbrej30k00k0q4j.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;pztl2fha9.bkt.clouddn.com&#x2F;9150e4e5ly1fj7tat55yvj206o06o75h.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;pztl2fha9.bkt.clouddn.com&#x2F;006dMd5bgy1fl6gzclm1mj30j60j6gmp.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;pztl2fha9.bkt.clouddn.com&#x2F;0.png">
+<meta property="og:updated_time" content="2019-10-28T08:21:29.976Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;pztl2fha9.bkt.clouddn.com&#x2F;art-big-data-blur-373543.jpg">
 
-<link rel="canonical" href="http://yoursite.com/">
+<link rel="canonical" href="http://yoursite.com/2019/10/28/sql/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false,
+    isHome: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>祺</title>
+  <title>SQL、NoSQL、NewSQL 看这篇文章就够了 | 祺</title>
   
 
 
@@ -212,10 +226,10 @@
             
 
   <div class="posts-expand">
-        
+      
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/28/sql/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -229,8 +243,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/10/28/sql/" class="post-title-link" itemprop="url">SQL、NoSQL、NewSQL 看这篇文章就够了</a>
+          SQL、NoSQL、NewSQL 看这篇文章就够了
         </h1>
 
         <div class="post-meta">
@@ -266,7 +279,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p><img src="http://pztl2fha9.bkt.clouddn.com/art-big-data-blur-373543.jpg" alt=""></p>
+        <p><img src="http://pztl2fha9.bkt.clouddn.com/art-big-data-blur-373543.jpg" alt=""></p>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>技术一直在发展，随着这个月阿里的 OceanBase 砍获数据库世界第一，远超 Oracle</p>
 <p>很多人开始关注数据库的发展方向</p>
 <p><img src="http://pztl2fha9.bkt.clouddn.com/6af89bc8gw1f8rgblk2npj208m07r0sq.jpg" alt=""></p>
@@ -317,104 +330,42 @@
 <p><img src="http://pztl2fha9.bkt.clouddn.com/006dMd5bgy1fl6gzclm1mj30j60j6gmp.jpg" alt=""></p>
 <p><img src="http://pztl2fha9.bkt.clouddn.com/0.png" alt=""></p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+          <div class="post-tags">
+              <a href="/tags/SQL/" rel="tag"># SQL</a>
+              <a href="/tags/NoSQL/" rel="tag"># NoSQL</a>
+              <a href="/tags/NewSQL/" rel="tag"># NewSQL</a>
+              <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" rel="tag"># 数据库</a>
+          </div>
 
         
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/28/hello-world/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/av.jpg">
-      <meta itemprop="name" content="LK">
-      <meta itemprop="description" content="java 技术分享、IT 开发技术分享">
-    </span>
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/2019/10/28/hello-world/" rel="next" title="新的开始">
+                  <i class="fa fa-chevron-left"></i> 新的开始
+                </a>
+            </div>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="祺">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/10/28/hello-world/" class="post-title-link" itemprop="url">新的开始</a>
-        </h1>
+            <span class="post-nav-divider"></span>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2019-10-28 11:38:27 / 修改时间：16:08:23" itemprop="dateCreated datePublished" datetime="2019-10-28T11:38:27+08:00">2019-10-28</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%97%A5%E8%AE%B0/" itemprop="url" rel="index">
-                    <span itemprop="name">日记</span>
-                  </a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>从初中开始，但凡自己搭建的博客，都喜欢写一个“序”，然后记录着种种搭建的技术和过程</p>
-<p>其中用过<code>Blogger</code>、<code>wordpress</code>，当然也有自己用 Java 写的，甚至这个博客原本也是打算使用 Java 去构建一个前后台，但这个其实是个非常漫长的过程，使用当然是没问题的，但是种种习惯会令人不得不去完善，可是有很多文章又急着去分享，再加上作为一个程序猿，不支持一下 Github Pages 好像也说不过去，所以本站最后决定还是采用 Github Pages + 七牛云 + 腾讯云的方式组合构建</p>
-<blockquote>
-<p>一件可以当场确定的事情千万不能拖 —— Google 工作法则</p>
-</blockquote>
-<p>但是这篇首作为什么要打破自己的常规？<br>首先我觉得单凭我的笔墨写出来的“序”，可能是个笑话？其次，2019 这一年经历了很多，自己也调整了很长的一段时间，期间有工作的原因，也有感情上的原因，也有日常生活上的种种因素，所以我想把第一篇称为“新的开始”，无论是技术也好，生活也罢，本站记录的都是一个全新的自我（希望如此）</p>
-<p>至于域名，其实本来应该是挺有纪念的意义的，可是物是人非，再加上自己也懒得重新买一个域名去备案，就继续用吧，我感觉我是永远打不破一买域名就被甩的魔咒！</p>
-<p>最后，说说我建立本站的目的吧</p>
-<p>我和我朋友做了个公众号，基本每天都会在上面更新技术文章，后期也规划了一系列的编程教程，所以想借个地方顺便记录一下我的文章</p>
-<p>就是这么简单</p>
-<p>新的开始，move on！</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
+            <div class="post-nav-prev post-nav-item">
+            </div>
+          </div>
       </footer>
+    
   </article>
   
   
   
 
   </div>
-
-  
-
 
 
           </div>
@@ -443,6 +394,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#SQL"><span class="nav-number">2.</span> <span class="nav-text">SQL</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NoSQL"><span class="nav-number">3.</span> <span class="nav-text">NoSQL</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NewSQL"><span class="nav-number">4.</span> <span class="nav-text">NewSQL</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">5.</span> <span class="nav-text">总结</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

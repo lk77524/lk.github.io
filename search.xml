@@ -1,9 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>第一篇测试</title>
-    <url>/2019/10/28/hello-world/</url>
-    <content><![CDATA[<h1 id="我就测试一下下"><a href="#我就测试一下下" class="headerlink" title="我就测试一下下"></a>我就测试一下下</h1><p>测试一下下嘛</p>
+    <title>SQL、NoSQL、NewSQL 看这篇文章就够了</title>
+    <url>/2019/10/28/sql/</url>
+    <content><![CDATA[<p><img src="http://pztl2fha9.bkt.clouddn.com/art-big-data-blur-373543.jpg" alt=""></p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>技术一直在发展，随着这个月阿里的 OceanBase 砍获数据库世界第一，远超 Oracle</p>
+<p>很多人开始关注数据库的发展方向</p>
+<p><img src="http://pztl2fha9.bkt.clouddn.com/6af89bc8gw1f8rgblk2npj208m07r0sq.jpg" alt=""></p>
+<p>但是祺老弟求求大佬们别再提什么新概念新名称了！学不来！！</p>
+<p><img src="http://pztl2fha9.bkt.clouddn.com/9150e4e5gw1f9f2zzbwtuj205i03zt8s.jpg" alt=""></p>
+<p>但是逼总是要装的，今天我们就一起看看这些新出的名词都是些什么</p>
+<h2 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h2><p>SQL 就不用祺老弟多讲了，是传统的关系型数据库，70年代以来，它一直是主要的数据库解决方案</p>
+<p><img src="http://pztl2fha9.bkt.clouddn.com/ac6eddc451da81cb037c289d5366d016082431c3.jpg" alt=""></p>
+<p><img src="http://pztl2fha9.bkt.clouddn.com/u=1545840296,2560930675&fm=26&gp=0.jpg" alt=""></p>
+<p>优点：</p>
+<ul>
+<li>使用统一标准的语言</li>
+<li>坚持 ACID 准则</li>
+</ul>
+<p>所以一般企业都离不开 SQL，更是诞生了像是 DBA (数据库管理员) 专门处理优化数据库的职业</p>
+<p>但是互联网发展到现在，像是 Google、阿里、百度等巨头的数据起码也达到 PB，甚至是 EB 的级别，单纯依赖传统的 SQL 注定是被淘汰的</p>
+<p><img src="http://pztl2fha9.bkt.clouddn.com/9150e4e5ly1fcsmsy8gx4j206o06o0t4.jpg" alt=""></p>
+<h2 id="NoSQL"><a href="#NoSQL" class="headerlink" title="NoSQL"></a>NoSQL</h2><p>所以近些年就有了 NoSQL（Not Only SQL）的出现，它主要用于解决 SQL 的可扩展性问题</p>
+<p><img src="http://pztl2fha9.bkt.clouddn.com/u=2437443776,3423398538&fm=26&gp=0.jpg" alt=""></p>
+<p><img src="http://pztl2fha9.bkt.clouddn.com/timg.jpg" alt=""></p>
+<p>优点：</p>
+<ul>
+<li>灵活的数据模型</li>
+<li>易扩展性</li>
+<li>高可用性</li>
+</ul>
+<p>NoSQL 采用列式存储、健值和文档存储来存储数据，而 SQL 只能通过表结构，这样大大的提现了 NoSQL 灵活的数据模型</p>
+<p>而且面对日益增多的数据，传统的 SQL 性能受限于磁盘 IO，像是 Redis 这种内存型数据库正好解决这种性能瓶颈</p>
+<p>但是</p>
+<p><img src="http://pztl2fha9.bkt.clouddn.com/006ARE9vgy1fz1ugkmbrej30k00k0q4j.jpg" alt=""></p>
+<p>这么强大的 NoSQL，缺点也是很致命的</p>
+<p>缺点：</p>
+<ul>
+<li>不支持 SQL 的标准语言</li>
+<li>不支持 ACID</li>
+<li>只能保证数据相对一致性</li>
+</ul>
+<p>也就是说，你换一个 NoSQL，就需要重新学习它的使用，学习成本高了</p>
+<p>而且不支持 ACID，这意味着如果在特定时间段内没有特定数据项的更新，则最终对其所有的访问都将返回最后更新的值</p>
+<p>所以现在大多数企业都会采用 SQL + NoSQL 根据不场景组合使用的方案</p>
+<h2 id="NewSQL"><a href="#NewSQL" class="headerlink" title="NewSQL"></a>NewSQL</h2><p>NewSQL是一种相对较新的形式，目标是将 SQL 的 ACID 保证与 NoSQL 的可扩展性和高性能相结合</p>
+<p>听上去像是汲取了刚刚提到两个方向的长处，更像是一种完美的解决方案</p>
+<p>虽然现在互联网上已经有一些 NewSQL 的产品，但是祺老弟认为要实现数据的强一致性又不影响性能的话，这条路还应该挺长</p>
+<p>我们可以大胆猜测以后的 NewSQL，应该是具备海量数据处理能力，而且在分布式的基础上仍然具备事务能力，而且还能按照旧的 SQL 标准语言进行查询</p>
+<p><img src="http://pztl2fha9.bkt.clouddn.com/9150e4e5ly1fj7tat55yvj206o06o75h.jpg" alt=""></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>不过技术的发展很难说准，想成为一个不被技术淘汰的程序猿，只能不断学习提升自己，跟着大厂的步伐走</p>
+<p>祺老弟不敢说以后会不会淘汰传统的 SQL，会不会导致无数 DBA 失业，但是能确定的一点是，学就完事了</p>
+<p><img src="http://pztl2fha9.bkt.clouddn.com/006dMd5bgy1fl6gzclm1mj30j60j6gmp.jpg" alt=""></p>
+<p><img src="http://pztl2fha9.bkt.clouddn.com/0.png" alt=""></p>
 ]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>SQL</tag>
+        <tag>NoSQL</tag>
+        <tag>NewSQL</tag>
+        <tag>数据库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新的开始</title>
+    <url>/2019/10/28/hello-world/</url>
+    <content><![CDATA[<p>从初中开始，但凡自己搭建的博客，都喜欢写一个“序”，然后记录着种种搭建的技术和过程</p>
+<p>其中用过<code>Blogger</code>、<code>wordpress</code>，当然也有自己用 Java 写的，甚至这个博客原本也是打算使用 Java 去构建一个前后台，但这个其实是个非常漫长的过程，使用当然是没问题的，但是种种习惯会令人不得不去完善，可是有很多文章又急着去分享，再加上作为一个程序猿，不支持一下 Github Pages 好像也说不过去，所以本站最后决定还是采用 Github Pages + 七牛云 + 腾讯云的方式组合构建</p>
+<blockquote>
+<p>一件可以当场确定的事情千万不能拖 —— Google 工作法则</p>
+</blockquote>
+<p>但是这篇首作为什么要打破自己的常规？<br>首先我觉得单凭我的笔墨写出来的“序”，可能是个笑话？其次，2019 这一年经历了很多，自己也调整了很长的一段时间，期间有工作的原因，也有感情上的原因，也有日常生活上的种种因素，所以我想把第一篇称为“新的开始”，无论是技术也好，生活也罢，本站记录的都是一个全新的自我（希望如此）</p>
+<p>至于域名，其实本来应该是挺有纪念的意义的，可是物是人非，再加上自己也懒得重新买一个域名去备案，就继续用吧，我感觉我是永远打不破一买域名就被甩的魔咒！</p>
+<p>最后，说说我建立本站的目的吧</p>
+<p>我和我朋友做了个公众号，基本每天都会在上面更新技术文章，后期也规划了一系列的编程教程，所以想借个地方顺便记录一下我的文章</p>
+<p>就是这么简单</p>
+<p>新的开始，move on！</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
 </search>
