@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>对不起，我们中国的程序猿都是护旗手！Notepad++滚！</title>
+    <url>/2019/11/01/notepad-is-shit/</url>
+    <content><![CDATA[<p><img src="http://pz3wxrt1f.bkt.clouddn.com/shit.gif" alt></p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>就在昨天，Notepad++ v7.8.1 发布，其实小编一直以来都很喜欢 Notepad ++的，毕竟比 Windows 自带的记事本好用太多了，但是他们错就错在，不应该惹我们中国人，我们中国的程序猿都是护旗手！</p><h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>Notepad++ 新版本发布的时候，在其官网<code>notepad-plus-plus.org</code>发布了一则新闻，大家看截图</p><a id="more"></a>
+
+
+<p><img src="http://pztl2fha9.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191101104249.png" alt></p>
+<p>翻译软件翻译<br><img src="http://pztl2fha9.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191101104755.png" alt></p>
+<p>不过肯定很多人都会说技术无政治，小编今天发这篇推文也不是说想改变点什么，爱用不用，但是小编作为中国人，肯定是无脑支持中国！</p>
+<p>况且 Notepad++ 也不是第一次辱华了…这次坚决不能忍！</p>
+<p><code>中国领土完整不容侵犯</code></p>
+<p>而且无数事实证明，这种辱华的小伎俩最终都是自食其果<br><img src="http://pztl2fha9.bkt.clouddn.com/wangjiaer.jpg" alt></p>
+<h2 id="github-issues"><a href="#github-issues" class="headerlink" title="github issues"></a>github issues</h2><p>当然 github 上的 issues 也是 ”讨论“ 得很激烈，这里小编就不建议再给这种傻逼企业蹭热度了<br><img src="http://pztl2fha9.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191101111409.png" alt></p>
+<h2 id="代替品"><a href="#代替品" class="headerlink" title="代替品"></a>代替品</h2><p>这里小编就推荐几个良心的记事本吧</p>
+<h3 id="Sublime-Text"><a href="#Sublime-Text" class="headerlink" title="Sublime Text"></a>Sublime Text</h3><p><img src="http://pztl2fha9.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191101111922.png" alt></p>
+<p>特点：</p>
+<ul>
+<li>转到任何东西</li>
+<li>追踪定义</li>
+<li>多项选择</li>
+<li>命令面板</li>
+<li>强大的 API 和包装生态系统</li>
+<li>自定义任何内容</li>
+<li>分割编辑</li>
+<li>即时项目切换</li>
+<li>跨平台</li>
+</ul>
+<h3 id="Visual-Studio-Code"><a href="#Visual-Studio-Code" class="headerlink" title="Visual Studio Code"></a>Visual Studio Code</h3><p><img src="http://pztl2fha9.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191101112354.png" alt></p>
+<p>特点：</p>
+<ul>
+<li>内置 Git 命令</li>
+<li>调用堆栈和交互式控制台进行调试</li>
+<li>可扩展和可定制</li>
+<li>远程开发</li>
+</ul>
+<h3 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a>Atom</h3><p><img src="http://pztl2fha9.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191101113239.png" alt></p>
+<p>特点：</p>
+<ul>
+<li>支持协作</li>
+<li>适用于 Atom 的 GitHub</li>
+<li>跨平台编辑</li>
+<li>文件系统浏览器</li>
+<li>多个窗格</li>
+<li>智能自动补全</li>
+</ul>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>好用的软件有这么多，也没有说离开了那个软件不行的说法，要是哪天 Java 也辱华，小编肯定也是二话不说放弃 Java 投入其他语言的怀抱</p>
+<p>最后还是要说一句，Notepad++滚出中国！我们不欢迎你！</p>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+        <tag>NotePad ++</tag>
+        <tag>爱国</tag>
+        <tag>记事本</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>闲置的云主机还能这样玩</title>
     <url>/2019/10/29/awesome-selfhosted/</url>
     <content><![CDATA[<p>准备又到双十一，经过 1024 的程序猿节后，很多做云的厂商都推出了不少的活动，还记得读书的时候，腾讯云和阿里云就有那种十几块的学生主机，那时候大家都抢着买</p><p>我们看看各大厂商又推出了什么活动…</p><p>腾讯云：<br><img src="http://pz3wxrt1f.bkt.clouddn.com/1.png" alt></p><p>阿里云：<br><img src="http://pz3wxrt1f.bkt.clouddn.com/2.png" alt></p><p>百度云：<br><img src="http://pz3wxrt1f.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191029161118.png" alt></p><p>华为云：<br><img src="http://pz3wxrt1f.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191029161223.png" alt></p><p>大概活动下来几十块就能拿到一年的云主机，只是配置就有点寒暄，不过还是不错的</p><p>可是很多朋友跟我一样，开始觉得便宜就买买买，可是买了之后却不知道到底能干嘛？？？<br><img src="http://pz3wxrt1f.bkt.clouddn.com/6af89bc8gw1f8t7mcbgcaj209k0cujro.jpg" alt></p><a id="more"></a>
